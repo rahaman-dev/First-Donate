@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+}
+.banner {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.3)),
+    url(/img/banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 600px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.banner-text {
+  width: 550px;
+  margin: auto;
+  font-size: 25px;
+}
+.discription {
+  font-size: 20px;
+  margin: 25px 0;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #ff5959;
+  width: 150px;
+  margin: auto;
+  font-size: 20px;
+  padding: 16px 12px;
+  border-radius: 5px;
+}
